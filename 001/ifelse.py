@@ -25,3 +25,11 @@ str1 = "apple"
 for i in str1:
     print(i)
 
+def test():
+    print("hello world")
+
+# if __name == ‘__main__’:
+# 用来防止其他程序调用本程序时，运行本程序的主方法
+if __name__ == "__main__":
+    test()
+
