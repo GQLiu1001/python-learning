@@ -1,0 +1,69 @@
+# Python 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 扩展
+*.so
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# PyCharm 配置文件
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+build/
+
+# 测试相关
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 日志文件
+*.log
+
+# 本地配置文件
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# 操作系统相关文件
+.DS_Store
+Thumbs.db
+
+# 其他临时文件
+*.swp
+*.swo
